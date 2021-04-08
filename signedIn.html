@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireBase Signed-In Page</title>
+</head>
+<body>
+    <div id="user"></div>
+    <div id="welcome">Welcome </div>
+    <h3>You are now signed in</h3>
+
+    
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBjq_xTV4eF98FV3L2eYUzJ3iFb9B4BHis",
+    authDomain: "signin-2c459.firebaseapp.com",
+    projectId: "signin-2c459",
+    storageBucket: "signin-2c459.appspot.com",
+    messagingSenderId: "30722895635",
+    appId: "1:30722895635:web:263e225e80b1ffb54fb4e6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <script src="signedIn.js"></script>
+    
+</body>
+</html>
